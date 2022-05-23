@@ -1,0 +1,37 @@
+.header {
+    background-color: #282c34;
+    min-height: 100vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+    padding-top: 1em;
+}
+.title {
+    text-align: left;
+    margin-left: 2.5em;
+    margin-top: 6em;
+}
+
+.button { 
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #babfc3;
+    padding: 11px 24px;
+    min-height: 44px;
+    min-width: 44px;
+    color: #202223;
+    background: #ffffff;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px;
+}
